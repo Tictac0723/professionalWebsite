@@ -165,6 +165,22 @@ a:hover {
 a:focus {
   outline: 0 !important;
 }
+
+#portImageLeft {
+  width: 50%;
+  float: left;
+
+  padding: 10px;
+
+}
+
+#portImageRight {
+  width: 50%;
+  float: right;
+
+  padding: 10px
+
+}
 .overflow {
   overflow: hidden;
 }
@@ -1102,7 +1118,7 @@ h6 {
  * ====================================
  */
 .features-section-1 .group {
-  padding: 85px 65px;
+  padding: 16%;
 }
 .features-section-1 .title {
   line-height: 70px;
@@ -1421,8 +1437,7 @@ h6 {
 .client-logo li {
   margin-bottom: 30px;
   display: inline-block;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 10px;
 }
 /**
  * ====================================
